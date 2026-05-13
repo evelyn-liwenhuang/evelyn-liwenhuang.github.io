@@ -1,91 +1,76 @@
-@article{liu2024stability,
-  selected={true},
-  title = {Numerical Stability Analysis of High-Order Runge-Kutta Methods in Quantum Dynamics},
-  author = {Jiale Liu and Sarah O'Connor*},
-  year = {2024},
-  month = mar,
-  journal = {Journal of Computational Physics},
-  volume = {450},
-  pages = {110832},
-  issn = {0021-9991},
-  doi = {10.1016/j.jcp.2023.110832},
-  urldate = {2024-12-02},
-  langid = {english},
-  abstract = {The precise time-evolution of quantum systems is a cornerstone of computational physics. This paper investigates the numerical stability of high-order Runge-Kutta (RK) methods when applied to the time-dependent Schrödinger equation. We derive rigorous stability boundaries for symplectic and non-symplectic RK integrators and demonstrate that specific implicit schemes preserve unitarity over extended simulation times. By analyzing the spectral properties of the Hamiltonian operator, we establish a relationship between the Courant-Friedrichs-Lewy (CFL) condition and the imaginary eigenvalues characteristic of quantum propagators. Our findings are validated through simulations of wave packet scattering and harmonic oscillator dynamics, showing that our proposed optimized RK coefficients significantly reduce phase error accumulation compared to standard integrators.},
-  description={A rigorous analysis of numerical stability boundaries for high-order Runge-Kutta integrators in the context of time-dependent quantum mechanics.},
-  keywords={Computational Physics, Quantum Dynamics, Numerical Analysis, Runge-Kutta Methods}
-}
-
-@inproceedings{smith2024constructive,
-  title = {A Constructive Proof of the Generalized Riemann Hypothesis for Function Fields over Finite Constants},
-  booktitle = {Proceedings of the 2024 International Congress of Mathematicians (ICM)},
-  author = {John Smith# and Jiale Liu#* and Alan Turing},
-  year = {2024},
-  month = jun,
-  pages = {205--218},
-  publisher = {EMS Press},
-  address = {Paris, France},
-  doi = {10.4171/ICM2024/102},
-  urldate = {2024-12-02},
-  isbn = {978-3-03719-202-8},
-  abstract = {We present a novel constructive proof for the Generalized Riemann Hypothesis (GRH) specifically within the context of function fields over finite constants. Unlike previous existential approaches, our method utilizes the spectral interpretation of the Frobenius automorphism acting on étale cohomology groups. We explicitly construct the L-functions associated with algebraic curves and demonstrate that their zeros lie strictly on the critical line Re(s) = 1/2. This work bridges the gap between classical analytic number theory and geometric invariant theory, offering new insights into the distribution of prime polynomials. The constructive nature of our proof allows for the algorithmic verification of L-function properties for curves of genus g > 100, which was previously computationally intractable.},
-  preview={example.png},
-  description={A constructive proof demonstrating the validity of the Generalized Riemann Hypothesis for function fields using spectral interpretation of the Frobenius automorphism.},
-  keywords={Number Theory, Riemann Hypothesis, Function Fields, Algebraic Geometry}
-}
-
-@inproceedings{brown2023monte,
-  selected={true},
-  title = {Monte Carlo Simulations of Phase Transitions in 2D Ising Models on Non-Euclidean Lattices},
-  shorttitle = {Ising on Hyperbolic Planes},
-  booktitle = {2023 International Conference on Computational Physics (ICCP)},
-  author = {Charlie Brown and Jiale Liu*},
-  year = {2023},
-  month = dec,
-  pages = {45--52},
-  publisher = {APS},
-  address = {Tokyo, Japan},
-  doi = {10.1103/ICCP.2023.0045},
-  urldate = {2024-12-02},
-  isbn = {978-0-7354-2000-1},
-  abstract = {The behavior of spin systems on curved geometries offers a unique window into the interplay between topology and statistical mechanics. This study employs extensive Monte Carlo simulations to explore the phase transitions of the 2D Ising model mapped onto hyperbolic lattices (Poincaré disk). We utilize the Wolff cluster algorithm to overcome critical slowing down near the phase transition temperature. Our results indicate that the critical exponents on negatively curved surfaces deviate significantly from the standard Onsager solution for flat Euclidean lattices. Specifically, we observe a suppression of the correlation length divergence, suggesting a mean-field-like behavior induced by the exponential expansion of the lattice volume. These findings have implications for understanding quantum gravity models and holographic duality.},
-  preview={example.png},
-  description={Monte Carlo study revealing mean-field-like phase transitions and critical exponent deviations for Ising models on hyperbolic non-Euclidean lattices.},
-  keywords={Statistical Mechanics, Monte Carlo Simulation, Ising Model, Non-Euclidean Geometry}
-}
-
-@article{doe2025existence,
-  title = {On the Existence and Uniqueness of Solutions to Non-Linear Stochastic Partial Differential Equations},
-  author = {Jane Doe and Jiale Liu and Richard Feynman},
-  year = {2025},
-  month = jun,
-  journal = {Annals of Probability},
-  volume = {53},
-  number = {4},
-  pages = {1201--1245},
-  issn = {0091-1798},
-  doi = {10.1214/25-AOP1201},
-  copyright = {https://imstat.org/journals-and-publications/annals-of-probability/},
-  abstract={We establish the existence and uniqueness of strong solutions for a class of non-linear Stochastic Partial Differential Equations (SPDEs) driven by multiplicative Lévy noise. The equations under consideration model turbulent fluid flow and heat transport in random media. By employing a Galerkin approximation scheme combined with a compact embedding theorem, we prove the convergence of the approximate solutions in appropriate Hilbert spaces. Furthermore, we derive a priori estimates that ensure the global regularity of the solution almost surely. A key contribution of this work is the treatment of non-Lipschitz coefficients using a stochastic Gronwall inequality, extending the applicability of the theory to more singular physical models. We also discuss the ergodic properties of the invariant measures associated with the SPDEs.},
-  preview={example.png},
-  description={Mathematical proof of existence and uniqueness for non-linear SPDEs with multiplicative Lévy noise, extending theory to non-Lipschitz coefficients.},
-  keywords={Stochastic Analysis, SPDE, Existence Theorems, Probability Theory}
-}
-
-
-@article{liu2025algorithmic,
-  title = {Algorithmic Complexity of Tensor Network Contractions in Many-Body Localization},
-  author = {Jiale Liu and Ada Lovelace*},
-  year = {2025},
-  month = sep,
-  journal = {Physical Review E},
-  issn = {2470-0045},
-  publisher = {APS},
-  abstract = {Simulating the dynamics of many-body localized (MBL) systems poses a significant challenge due to the logarithmic growth of entanglement entropy. This paper analyzes the algorithmic complexity of contracting Tensor Networks, specifically Matrix Product States (MPS) and Projected Entangled Pair States (PEPS), when applied to MBL Hamiltonians. We prove that while the exact contraction is #P-complete, approximate contraction schemes based on singular value decomposition (SVD) truncation exhibit polynomial time complexity with bounded error for short-time evolution. However, we identify a "complexity phase transition" at the ergodic-MBL transition point, where the bond dimension required for a fixed accuracy diverges exponentially. We propose a novel adaptive bond-dimension algorithm that optimizes computational resources by exploiting the area law of entanglement in the localized phase, demonstrating superior performance on Heisenberg spin chains.},
-  description={Complexity analysis of tensor network contractions in MBL systems, identifying a complexity phase transition and proposing an adaptive algorithm.},
-  keywords={Tensor Networks, Many-Body Localization, Complexity Theory, Quantum Information},
-  doi = {10.1103/PhysRevE.112.092101},
+@article{huang2026manuscript,
   selected = {true},
-  code = {https://github.com/xyjoey/Tensor_Network_Complexity_MBL},
+  title = {Manuscript},
+  author = {Huang, Liwen and others},
+  journal = {Coming Soon},
+  year = {2026},
+  preview = {Coming soon.png},
+  description = {A new research project currently under preparation.}
 }
+
+@article{cao2026heatflux,
+  selected = {true},
+  title = {A Thin-Film Heat Flux Sensor Based on Polymer-Derived Ceramics},
+  author = {Cao, K. and Huang, Liwen and and others},
+  journal = {Results in Engineering, Accepted},
+  year = {2026},
+  preview = {Coming soon.png},
+  description = {Coming Soon.}
+}
+
+@article{cui2025rapid,
+  selected={true},
+  title={A rapid preparation method for polymer-derived ceramic thin-film sensors},
+  author={Cui, Zaifu* and Huang, Liwen and Xu, Zitong and Wang, Zhonghai and Gao, Xuejian and Gou, Bohuai and Duan, Wenjin and Che, Huayu and Chen, Hui and Liu, Jingqiang and others},
+  journal={Sustainable Materials and Technologies, Published},
+  pages={e01587},
+  year={2025},
+  publisher={Elsevier},
+  preview = {03.png},
+  doi = {/10.1016/j.susmat.2025.e01587},
+  description = {With the increasing demand for accurate and rapid measurement of temperature, heat flux and other parameters in aerospace, chemical plants and other high-temperature applications, traditional pin-type thermocouples and other means of measurement can no longer meet the demand. Polymer-Derived Ceramics (PDC) thin-film sensors as a new type of high-temperature parameter measurement means gradually become a hot spot of research. The traditional tube furnace heating to prepare polymer-derived ceramic thin film sensors, need to prepare the sensitive layer, wire layer, solder joints and protective layer, two to three times pyrolysis, multiple pyrolysis needs to spend a lot of time (more than 20 h), seriously reduce the production efficiency of thin-film sensors. The new rapid pyrolysis processes such as laser and electric heating require expensive equipment and complicated processes. In this paper, a rapid preparation method of polymer ceramic thin-film sensors based on the protective layer is proposed, which can complete the preparation of polymer-derived ceramic thin-film sensors with only one pyrolysis. It not only improves the efficiency of sensor preparation, but also reduces the process steps and eliminates the need for separate pyrolysis of the sensing film. The protective layer film was characterized and analyzed by SEM/EDS, XRD and FTIR, and the insulating properties of the protective layer were tested to reveal the principle of one-time pyrolysis, and the temperature sensor was prepared and tested. The results show that the thin-film sensors prepared by this method have good high-temperature stability, repeatability, and sensitivity. It provides a method for the rapid preparation of similar PDC thin-film sensors such as PDC thin-film strain gauges and heat flux sensors.}
+  
+}
+
+
+@article{cui2025ceramic,
+  selected={true},
+  title={A ceramic coating from polymer-derived SiCNO for high-temperature electrical insulation on Ni-based alloy substrates},
+  author={Cui, Zaifu* and Lu, Zhenguo and Huang, Liwen and Xu, Zitong and Wang, Zhonghai and Duan, Wenjin and Che, Huayu and Gou, Bohuai and Liang, Qiyu and Huang, Jiahong and others},
+  journal={Ceramics International, Published},
+  volume={51},
+  number={7},
+  pages={9142--9150},
+  year={2025},
+  publisher={Elsevier},
+  preview = {04.png},
+  doi = {/10.1016/j.ceramint.2024.12.347},
+  description = {High-temperature thin-film sensors on nickel-based alloy high-temperature components are important for design validation and health monitoring of such high-temperature components, however, maintaining good electrical insulation at high temperatures remains a challenge for the stability and reliability of thin-film sensors. In this study, an insulating coating on nickel-based alloy substrate is proposed to solve the electrical insulation problem of thin-film sensors. A layer of precursor ceramic slurry is prepared on a nickel-based alloy substrate by direct-write printing method, and then a layer of pure precursor liquid is spin-coated on it after vacuum pyrolysis, and then a four-layered structural insulating coating is formed by the vacuum pyrolysis at last. The coatings were characterized by SEM, EDS, FTIR, XRD and XPS for surface morphology, elemental content, functional groups, and physical phase composition. The electrical resistance of the coatings was tested at high temperatures and their adhesion at room temperature was tested. Finally, the temperature and thermal shock resistance of the coatings were verified by preparing thin-film thermistors and heat flux sensors on the coating. A high-temperature resistant electrically insulating coating is provided for the preparation of thin-film sensors on high-temperature nickel-based alloys.}
+}
+
+@article{cui2025high,
+  selected = {true},
+  title={A high-temperature resistant curved conformal thin-film polymer derived SiCN temperature sensor based on screen printing},
+  author={Cui, Zaifu* and Duan, Wenjin and Lu, Zhenguo and Huang, Liwen and Che, Huayu and Gou, Bohuai and Xu, Zitong and Liang, Huaxiu and Huang, Jiahong and Mao, Dingyun and others},
+  journal={Journal of Alloys and Compounds, Published},
+  volume={1013},
+  pages={178566},
+  year={2025},
+  publisher={Elsevier},
+  preview = {05.png},
+  doi = {/10.1016/j.jallcom.2025.178566},
+  description = {Curved high-temperature applications, such as aircraft engine turbine blades and automobile engine exhausts, require accurate and rapid temperature measurements. Despite this need, preparing thin-film temperature sensors on complex curved surfaces remains challenging. It is hypothesized that a flexible screen-printing-based method can effectively fabricate conformal high-temperature sensors on such surfaces. In this study, a method using carbon dioxide laser scanning is employed to carbonize one-sided adhesive polyimide (PI) thin-film tapes, creating flexible stencils. The investigation focuses on the effects of laser power, scanning speed, and the number of scans on the morphology of PI stencil mesh edges, as well as examining the influence of PI stencil thickness and scanning width on mesh dimensions. Optimal laser process parameters are identified for producing stencils with clear mesh edges across various thicknesses. The results demonstrate that the fabricated curved high-temperature thin-film temperature sensors exhibit excellent reproducibility and stability, enduring temperatures up to 900 °C. It is concluded that this process not only enables the production of high-performance PDC thin-film temperature sensors but also extends to other high-temperature sensors and flexible electronic devices.}
+}
+
+@misc{cui2025preparation,
+  selected = {true},
+  title={Preparation method of polymer-derived high-temperature ceramic film sensor},
+  author={Cui, Zaifu* and Lu, Zhenguo and Huang, Liwen and WANG, Zhonghai and XU, Zitong and Duan, Wenjin and Gou, Bohuai and Mao, Dingyun and Chen, Xiaojun and Li, Xin and others},
+  year={2025},
+  month=jan # "~28",
+  publisher={Google Patents},
+  note={US Patent 12,209,057},
+  preview = {06.png}
+}
+
 

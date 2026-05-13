@@ -3,25 +3,31 @@ title = "Awards"
 description = "Honors and awards I have received."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2025"
-content = "Description of the award."
+title = "National Inspiration Scholarship"
+date = "2020 & 2021 & 2023"
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "2nd Provincial Prize, Material Heat Treatment Innovation and Entrepreneurship Competition"
 date = "2024"
-content = "Description of the award."
+content = "Contributed to studying the effects of laser power and scanning speed on ceramic coating morphology, identifying optimal parameters to prevent cracking and delamination. "
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2023"
-content = "Description of the award."
+title = "1st Provincial Prize, China College Students' 'Internet+'Innovation and Entrepreneurship Competition"
+date = "2021"
+content = "Responsible for drafting the business proposal, iterating the practical training platform solution for target universities, and conducting business and data analysis."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2022"
-content = "Description of the award."
+title = "Second-Class Scholarship"
+date = "2020 & 2021 & 2023"
+
+[[items]]
+title = "Third-Class Scholarship"
+date = "2020 & 2021"
+
+[[items]]
+title = "Outstanding Graduation Thesis"
+date = "2024"
+
+[[items]]
+title = "Outstanding Intern"
+date = "2024"
