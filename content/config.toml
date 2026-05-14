@@ -1,8 +1,8 @@
 [site]
-title = "Liwen Huang"
+title = "Evelyn's Website"
 description = "Welcome to my website!"
 favicon = "/favicon.svg"
-last_updated = "May 13, 2026"
+last_updated = "May 14, 2026"
 
 [author]
 name = "Liwen Huang"
@@ -14,14 +14,13 @@ avatar = "/photo.jpg"
 # Contact information (leave blank or delete to hide)
 
 email = "imliwenhuang@126.com"
+linkedin = "https://www.linkedin.com/in/imliwenhuang/"
 location = "Guangzhou, China"
-location_url = "https://maps.google.com"
+location_url = "https://maps.google.com/?q=广州香港科大霍英东研究院"
 location_details = [
-  "Systems Hub, CPAI Lab,",
-  "The Hong Kong University of Science and Technology (Guangzhou)"
+  "HKUST(GZ)"
 ]
 google_scholar = "https://scholar.google.com/citations?user=PIhEBwgAAAAJ&hl=en"
-
 
 [features]
 # Show a like button on the about page
@@ -58,15 +57,15 @@ type = "page"
 target = "publications"
 href = "/publications"
 
+[[navigation]]
+title = "Qualifications"
+type = "page"
+target = "qualifications"
+href = "/qualifications"
+
 
 [[navigation]]
-title = "Awards"
+title = "Honors"
 type = "page"
 target = "awards"
 href = "/awards"
-
-[[navigation]]
-title = "Projects"
-type = "page"
-target = "projects"
-href = "/projects"

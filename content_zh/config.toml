@@ -1,18 +1,18 @@
 [site]
-title = "刘嘉乐"
-description = "某某大学博士生个人主页。"
-last_updated = "2025年11月18日"
+title = "Evelyn's Website"
+description = "欢迎来到我的学术主页！"
+last_updated = "2026年5月14日"
 
 [author]
-name = "刘嘉乐"
-title = "博士生"
-institution = "某某大学"
+name = "黄丽雯"
+title = "科研助理"
+institution = "香港科技大学（广州）"
 
 [social]
-location = "城市，国家"
+location = "广州，中国"
 location_details = [
-  "理科楼 123 室，",
-  "大学路，城市，国家"
+  "南沙区笃学路 1 号",
+  "广州市，广东省，中国"
 ]
 
 [[navigation]]
@@ -28,10 +28,10 @@ target = "publications"
 href = "/publications"
 
 [[navigation]]
-title = "教学"
+title = "证书"
 type = "page"
-target = "teaching"
-href = "/teaching"
+target = "qualifications"
+href = "/qualifications"
 
 [[navigation]]
 title = "奖项"
@@ -39,14 +39,3 @@ type = "page"
 target = "awards"
 href = "/awards"
 
-[[navigation]]
-title = "服务"
-type = "page"
-target = "services"
-href = "/services"
-
-[[navigation]]
-title = "简历"
-type = "page"
-target = "cv"
-href = "/cv"

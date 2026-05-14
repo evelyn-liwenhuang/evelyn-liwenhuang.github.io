@@ -1,0 +1,28 @@
+type = "card"
+title = "Qualifications"
+description = "I have obtained the following certifications and skills."
+
+[[items]]
+title = "Industrial Robot Certificate of Vocation Skill Level"
+date = "2022"
+tags = ["Industrial Robot", "Robot Control"]
+
+[[items]]
+title = "ABB Ability Intelligent Equipment Application Intermediate Competency"
+date = "2021"
+tags = ["ABB Robot", "Robot Control"]
+
+[[items]]
+title = "CEAC Informatization Engineer"
+date = "2021"
+tags = ["Python", "Embedded Programming"]
+
+[[items]]
+title = "Low-voltage Electrician Operating Certificate "
+date = "2021"
+tags = ["Low-voltage", "Sensor Interface"]
+
+[[items]]
+title = "Mandarin Proficiency: Level 2-A"
+date = "2021"
+tags = ["Languages"]

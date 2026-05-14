@@ -1,27 +1,44 @@
 type = "card"
-title = "奖项"
-description = "我获得的荣誉与奖项。"
+title = "荣誉"
+description = "我的部分荣誉与奖项。"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2025"
-content = "奖项说明。"
+title = "国家励志奖学金"
+subtitle = "广东省教育厅"
+date = "2020 & 2021 & 2023"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
+title = "省银，中国大学生机械工程创新创意大赛材料热处理创新创业赛"
+subtitle = "中国机械工程学会"
 date = "2024"
-content = "奖项说明。"
+content = "基于激光热处理技术制备金属前驱体陶瓷海洋环境涂层。"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
+title = "省金，中国国际“互联网+”大学生创新创业大赛"
+subtitle = "广东省教育厅"
+date = "2021"
+content = "《智训航家》，工业与教育双轮驱动，引领智造产业升级。"
+
+[[items]]
+title = "校区优秀奖，中国计算机应用技术大赛金山办公杯WPS办公软件能力大赛"
+subtitle = "中国计算机学会计算机应用专业委员会"
 date = "2023"
-content = "奖项说明。"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2022"
-content = "奖项说明。"
+title = "二等奖学金"
+date = "2020 & 2021 & 2023"
+
+[[items]]
+title = "三等奖学金"
+date = "2020 & 2021"
+
+[[items]]
+title = "优秀毕业论文"
+date = "2024"
+subtitle = "岭南师范学院"
+
+[[items]]
+title = "优秀实习生"
+date = "2024"
+subtitle = "岭南师范学院"
+
