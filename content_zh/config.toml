@@ -1,7 +1,7 @@
 [site]
 title = "Evelyn's Website"
 description = "欢迎来到我的学术主页！"
-last_updated = "2026年5月14日"
+last_updated = "2026年5月15日"
 
 [author]
 name = "黄丽雯"
@@ -34,7 +34,7 @@ target = "qualifications"
 href = "/qualifications"
 
 [[navigation]]
-title = "奖项"
+title = "荣誉"
 type = "page"
 target = "awards"
 href = "/awards"
